@@ -15,4 +15,4 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 
 
 ## Instalar o n8n
-docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n -e WEBHOOK_TUNNEL_URL=https://SUAURL>COM>BR docker.n8n.io/n8nio/n8n
+docker run -d --restart always --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n -e WEBHOOK_TUNNEL_URL=https://sua-url.com.br docker.n8n.io/n8nio/n8n
