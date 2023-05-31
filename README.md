@@ -1,5 +1,5 @@
-# docker
-manual de instalações docker
+# MMANUAL DE INSTALAÇÕES DOCKER
+-------------------------------
 
 ## Atualizar e reiniciar a vps com ubuntu 22.04
 apt update -y && apt upgrade -y && init 6
